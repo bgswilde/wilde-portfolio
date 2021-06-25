@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Wilde's Portfolio</title>
+</head>
+
+<body>
+    <!-- title and nav -->
+    <header>
+        <h1>
+            Brian Wilde
+        </h1>
+        
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#work">My Work</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- hero with subtitle -->
+    <section class="hero"> <!-- style the background with css img and flexbox for h2 -->
+        <h3>Learning to Code</h3>
+    </section>
+
+    <!-- main content (flexbox with 3 child element rows) -->
+    <main class="content"> 
+        <!-- about me container -->
+        <div class="container">
+            <article id="about-me" class="content-block"> <!-- use 3 child elements for this row -->
+                <h2 class="section-title">About Me</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia odio ratione tempore saepe impedit, qui aperiam similique magnam ad ex placeat itaque, ipsam beatae laboriosam amet, aut esse nostrum nobis!
+                </p>
+                <img src=""/> <!--bio pic-->
+            </article>
+        </div>
+
+        <!-- work container -->
+        <div class="container">
+            <!--flexbox with 2 columns-->
+            <section id="work" class="content-block"> 
+                <h2 class="section-title">My Work</h2>
+                <!-- flexbox with 5 cards, each card it's own flexbox for image and subtitle -->
+                <div class="card-box">
+                    <div class="top-card">
+                        <img src=""/>
+                        <div class="card-subtitle">
+                            <h4>Page Title</h4>
+                            <p>Technology</p>
+                        </div>
+                    </div>
+
+                    <div class="page-card">
+                        <img src=""/>
+                        <div class="card-subtitle">
+                            <h4>Page Title</h4>
+                            <p>Technology</p>
+                        </div>
+                    </div>
+
+                    <div class="page-card">
+                        <img src=""/>
+                        <div class="card-subtitle">
+                            <h4>Page Title</h4>
+                            <p>Technology</p>
+                        </div>
+                    </div>
+
+                    <div class="page-card">
+                        <img src=""/>
+                        <div class="card-subtitle">
+                            <h4>Page Title</h4>
+                            <p>Technology</p>
+                        </div>
+                    </div>
+
+                    <div class="page-card">
+                        <img src=""/>
+                        <div class="card-subtitle">
+                            <h4>Page Title</h4>
+                            <p>Technology</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- contact me container -->
+        <div class="container">
+            <!-- flexbox with two columns, address column as another flexbox-->
+            <section id="contact-me" class="content-block">
+                <h2 class="section-title">Contact Me</h2>
+                <address class="contact-links">
+                    <a href="tel:+13162101197">316.210.1197</a>
+                    <a href="mailto:bgswilde@gmail.com">bgswilde@gmail.com</a>
+                    <a href="https://github.com/bgswilde">GitHub</a>
+                    <a href="https://www.facebook.com/brian.wilde.9">Facebook</a>
+                </address>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
