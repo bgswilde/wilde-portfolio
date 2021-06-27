@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --base-color: #cccccc;
+    --primary-dark: #29464e;
+    --bold-accent: #cbc600;
+    --secondary-color: #aa743a;
+    --light-accent: #82c1be;
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url(./images/mountains.jpg);
+    background-position: center;
+    background-size: initial;
+    color: var(--primary-dark);
+}
+
+header {
+    background-image: url(./images/headerhover.png);
+    background-size: contain;
+    background-attachment: fixed;
+    background-size: contain;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+header h4 {
+    color: var(--light-accent);
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+header nav {
+    align-content: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: right;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-block {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    padding: 20px;
+    background-color: rgb(255 254 254 / 61%);
+}
+
+.section-title {
+    flex-wrap: wrap;
+    border-right: solid;
+    padding: 10px;
+    width: 20%;
+}
+
+.section-title h2 {
+    display: inline-block;
+    align-self: center;
+}
+
+.bio {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-self: center;
+    text-align: left;
+}
+
+.bio p {
+    display: inline-block;
+    padding: 0;
+    width: 80%;
+}
+
+.bio img {
+    max-height: 160px;
+    max-width: 128px;
+    align-self: center;
+    margin: 0 20px;
+    padding: 0;
+    flex: 0 1 auto;
+}
+
+.card-box {
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.contact-links {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-self: center;
+}

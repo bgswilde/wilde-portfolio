@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brian Wilde's Portfolio</title>
+    <link rel="stylesheet" href="./assets/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- title and nav -->
     <header>
-        <h1>
-            Brian Wilde
-        </h1>
-        
+        <div class="heading">
+            <h1>
+                BRIAN WILDE
+            </h1>
+            <h4>
+                web developer
+            </h4>
+        </div>
         <nav>
             <ul>
                 <li>
@@ -30,7 +38,7 @@
 
     <!-- hero with subtitle -->
     <section class="hero"> <!-- style the background with css img and flexbox for h2 -->
-        <h3>Learning to Code</h3>
+        <h3></h3>
     </section>
 
     <!-- main content (flexbox with 3 child element rows) -->
@@ -39,11 +47,14 @@
         <div class="container">
             <article id="about-me" class="content-block"> <!-- use 3 child elements for this row -->
                 <h2 class="section-title">About Me</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia odio ratione tempore saepe impedit, qui aperiam similique magnam ad ex placeat itaque, ipsam beatae laboriosam amet, aut esse nostrum nobis!
-                </p>
-                <img src=""/> <!--bio pic-->
-            </article>
+                <div class="bio">
+                    <img src="./assets/images/brianbio-sm.png"/>
+                    <p>
+                        I'm in love with all things tech! A Youth Pastor by trade, my role in a church has also given me exposure to web development, graphics design, and video production, leading me to pursue further education to transition into a career in web development. When I'm not working or coding, I'm hanging out with my awesome family and/or watching soccer. Thanks for exploring my portfolio!
+                    </p>
+                     <!--bio pic-->
+                </div>   
+             </article>
         </div>
 
         <!-- work container -->
@@ -99,7 +110,7 @@
         <!-- contact me container -->
         <div class="container">
             <!-- flexbox with two columns, address column as another flexbox-->
-            <section id="contact-me" class="content-block">
+            <section id="contact" class="content-block">
                 <h2 class="section-title">Contact Me</h2>
                 <address class="contact-links">
                     <a href="tel:+13162101197">316.210.1197</a>
