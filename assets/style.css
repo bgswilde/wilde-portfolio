@@ -40,6 +40,7 @@ header h1 {
     margin-left: 30px;
     margin-bottom: 0px;
     padding-bottom: 0;
+    text-shadow: 0 0 8px var(--primary-dark);
 }
 
 header h4 {
@@ -82,7 +83,12 @@ header nav ul li {
     justify-content: space-around;
     margin: 50px;
     padding: 20px;
+    opacity: 70%;
     background-color: rgb(255 254 254 / 61%);
+}
+
+.content-block:hover {
+    opacity: 100%;
 }
 
 .section-title {
@@ -97,36 +103,71 @@ header nav ul li {
     align-self: center;
 }
 
-.bio {
+.flex-row {
     display: flex;
     width: 80%;
     justify-content: space-between;
     align-self: center;
     text-align: left;
+    margin-left: 10px;
 }
 
-.bio p {
+.flex-row p {
     display: inline-block;
     padding: 0;
+    margin: 10px;
     width: 80%;
 }
 
-.bio img {
+.flex-row img {
     max-height: 160px;
     max-width: 128px;
     align-self: center;
-    margin: 0 20px;
+    margin: 0 10px;
     padding: 0;
     flex: 0 1 auto;
 }
 
 .card-box {
-    margin: 0 20px;
+    margin: 0 10px;
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
+    height: auto;
     justify-content: space-between;
-    align-content: center;
+}
+
+.top-card {
+    width: 100%;
+    height: auto;
+    border: solid 8px var(--light-accent);
+    margin-bottom: 20px;
+    background-image: url(./images/portfolio-top.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-subtitle {
+    width: 40%;
+    height: 20%;
+    margin-top: auto;
+    margin-bottom: 30px;
+    background-color: var(--light-accent);
+    padding: 20px 5px;
+    text-align: left;
+}
+
+.card {
+    width: 45%;
+    order: solid 8px var(--light-accent);
+    margin-bottom: 20px;
+    background-image: url(./images/portfolio-top.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-links {
