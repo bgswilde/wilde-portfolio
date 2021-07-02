@@ -3,6 +3,22 @@
 ## DESCRIPTION
 Originially created as a test of my growing knowledge base in HTML and CSS, this will continue to have links to web projects I create in the future. 
 
+I enjoyed building this portfolio from scratch while utlizing the following techniques new to me:
+* Flexbox
+* Media Queries
+* Psuedo Classes
+
+This page is viewable at https://bgswilde.github.io/wilde-portfolio/
+
+See screenshots for desktop and mobile page layouts:
+
+![Desktop](./assets/images/portfolio-screenshot.png)
+![Mobile](./assets/images/portfolio-screenshot-mobile.png)
+
+
+## CREDITS
+The Content Management page links I included are pages I actively manage and create content for. I am not responsible for the original design of the CCC website, which was designed by Evans Design Co. However, I am responsible for the layout on several of the indpages, including elements of the homepage and creation of the page content. 
+
 ## LICENSE
 MIT License
 
