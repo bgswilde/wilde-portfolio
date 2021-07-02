@@ -6,7 +6,7 @@ Originially created as a test of my growing knowledge base in HTML and CSS, this
 I enjoyed building this portfolio from scratch while utlizing the following techniques new to me:
 * Flexbox
 * Media Queries
-* Psuedo Classes
+* Pseudo Classes
 
 This page is viewable at https://bgswilde.github.io/wilde-portfolio/
 
