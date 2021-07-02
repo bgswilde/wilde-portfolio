@@ -38,62 +38,62 @@
 
     <!-- main content (flexbox with 3 child element rows) -->
     <main class="content"> 
-        <!-- about me container -->
+        <!-- about me container, using 3 flex items-->
         <div class="container">
-            <article id="about-me" class="content-block"> <!-- use 3 child elements for this row -->
+            <article id="about-me" class="content-block">
                 <h2 class="section-title">About Me</h2>
                 <div class="flex-row">
-                    
                     <p>
                         I'm in love with all things tech! A Youth Pastor by trade, my role in a church has also given me exposure to web development, graphics design, and video production, leading me to pursue further education to transition into a career in web development. When I'm not working or coding, I'm hanging out with my awesome family and/or watching soccer. Thanks for exploring my portfolio!
                     </p>
-                    <img src="./assets/images/brian-bio.jpeg"/>
+                    <img src="./assets/images/brian-bio.jpeg" alt="Brian Wilde, smiling, wearing a white short-sleeve button down shirt"/>
                 </div>   
              </article>
         </div>
 
-        <!-- work container -->
+        <!-- work container, using 2 flex items -->
         <div class="container">
-            <!--flexbox with 2 columns-->
             <section id="work" class="content-block"> 
                 <h2 class="section-title">My Work</h2>
-                <!-- flexbox with 5 cards, each card it's own flexbox for image and subtitle -->
+                <!-- flexbox has 5 flex "cards" within. anchor elements to replace divs so the entire card is clickable -->
                 <div class="flex-row">
                     <div class="card-box">
-                        <div class="top-card">
+                        <a class="top-card" href="https://bgswilde.github.io/run-buddy/" target="_blank">
                             <div class="card-subtitle">
                                 <h4>Run Buddy</h4>
                                 <p>HTML, CSS</p>
                             </div>
-                        </div>
-                    
-                        <div class="card">
+                        </a>
+                        
+                        
+                        <a class="card page1" href="https://www.oasiscon.com/" target="_blank">
                             <div class="card-subtitle">
-                                <h4>Page Title</h4>
-                                <p>Technology</p>
+                                <h4>Oasis</h4>
+                                <p>CMS, Squarespace</p>
                             </div>
-                        </div>
+                        </a>
+                        
 
-                        <div class="card">
+                        <a class="card page2" href="https://countrysidechristian.com/" target="_blank">
                             <div class="card-subtitle">
-                                <h4>Page Title</h4>
-                                <p>Technology</p>
+                                <h4>CCC</h4>
+                                <p>CMS, Wordpress</p>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="card">
+                        <a class="card page3" href="./placeholder.html" target="_blank">
                             <div class="card-subtitle">
-                                <h4>Page Title</h4>
-                                <p>Technology</p>
+                                <h4>Sporting KICKS</h4>
+                                <p>JavaScript</p>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="card ">
+                        <a class="card page4" href="./placeholder.html" target="_blank">
                             <div class="card-subtitle">
-                                <h4>Page Title</h4>
-                                <p>Technology</p>
+                                <h4>It Happuns</h4>
+                                <p>Ruby, Dad-Jokes</p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -101,14 +101,14 @@
 
         <!-- contact me container -->
         <div class="container">
-            <!-- flexbox with two columns, address column as another flexbox-->
+            <!-- flexbox with two elements, including a flexrow to hold address links as flex items-->
             <section id="contact" class="content-block">
                 <h2 class="section-title">Contact Me</h2>
                 <address class="flex-row">
                     <a href="tel:+13162101197">316.210.1197</a>
                     <a href="mailto:bgswilde@gmail.com">bgswilde@gmail.com</a>
-                    <a href="https://github.com/bgswilde">GitHub</a>
-                    <a href="https://www.facebook.com/brian.wilde.9">Facebook</a>
+                    <a href="https://github.com/bgswilde" target="_blank">GitHub</a>
+                    <a href="https://www.facebook.com/brian.wilde.9" target="_blank">Facebook</a>
                 </address>
             </section>
         </div>

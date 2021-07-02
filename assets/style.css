@@ -20,6 +20,7 @@ body {
     color: var(--primary);
 }
 
+/* BEGIN HEADER NAV STYLES */
 header {
     height: auto;
     width: auto;
@@ -35,6 +36,7 @@ header h1 {
     font-weight: 700;
     margin-left: 30px;
     margin-bottom: 0px;
+    margin-top: 10px;
     padding-bottom: 0;
     text-shadow: 0 0 8px var(--primary);
 }
@@ -76,7 +78,9 @@ header nav ul li a:hover {
     font-weight: 700;
     text-decoration: underline;
 }
+/* END HEADER NAV STYLES */
 
+/* BEGIN UNIVERSAL CONTENT SECTION STYLES */
 .container {
     width: 85%;
     margin-right: auto;
@@ -127,7 +131,9 @@ header nav ul li a:hover {
     padding: 0;
     flex: 0 1 auto;
 }
+/* END UNIVERSAL CONTENT SECTION STYLES */
 
+/* BEGIN WORK SECTION STYLES */
 .card-box {
     margin: 0 10px;
     display: flex;
@@ -148,6 +154,7 @@ header nav ul li a:hover {
     background-blend-mode: hard-light;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
 }
 
 .top-card:hover {
@@ -155,7 +162,7 @@ header nav ul li a:hover {
 }
 
 .card-subtitle {
-    width: 40%;
+    width: 44%;
     height: 50%;
     min-height: 70px;
     margin: 70px 0 20px 0;
@@ -165,6 +172,7 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-decoration: none;
 }
 
 .top-card .card-subtitle {
@@ -175,6 +183,7 @@ header nav ul li a:hover {
 .card-subtitle h4 {
     font-size: 20px;
     flex-wrap: wrap;
+    color: var(--primary);
 }
 
 .card-subtitle p {
@@ -182,6 +191,7 @@ header nav ul li a:hover {
     margin: 0;
     font-size: 14px;
     flex-wrap: wrap;
+    flex-shrink: 1;
 }
 
 .card {
@@ -191,10 +201,36 @@ header nav ul li a:hover {
     background-image: url(./images/portfolio-top.png);
     background-size: cover;
     background-position: center;
+    background-blend-mode: hard-light;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    font-style: normal;
 }
 
+.page1 {
+    background-image: url(./images/oasis.png);
+}
+
+.page2 {
+    background-image: url(./images/ccc.png);
+}
+
+.page3 {
+    background-image: url(./images/sporting.jpeg);
+}
+
+.page4 {
+    background-image: url(./images/laugh.jpg);
+}
+
+.card:hover {
+    background-color: rgba(0, 87, 72, 0.8);
+}
+
+/* END WORK SECTION STYLES */
+
+/* BEGIN CONTACT/FOOTER SECTION STYLES */
 .contact-links {
     display: flex;
     width: 80%;
@@ -220,13 +256,45 @@ address a:hover {
     color: var(--primary);
     text-decoration: underline;
 }
+/* END CONTACT/FOOTER SECTION STYLES */
 
-@media screen and (max-width: 980px) {
-    .container {
-        width: 92%
-   } 
+/* BEGIN PLACEHOLDER LANDING PAGE STYLES */
+.placeholder-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 200px 80px 500px 80px;
 }
 
+.placeholder-text h1 {
+    font-size: 30px;
+    text-align: center;
+    color: var(--primary);
+}
+
+header h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+header h1 a:hover {
+    text-shadow: 0 0 13px var(--primary);
+}
+/* END PLACEHOLDER LANDING PAGE STYLES */
+
+/* BEGIN TABLET/LAPTOP MEDIA QUERY SYLES, WIDENS CONTENT TO BE READABLE */
+@media screen and (max-width: 980px) {
+    .container {
+        width: 95%
+   } 
+
+    .content-block {
+        margin: 25px;
+    }
+}
+/* END TABLET/LAPTOP MEDIA QUERY SYLES */
+
+/* BEGIN PHONE/SMALL TABLET MEDIA QUERY STYLES, MOVES TO COLUMN FORMAT */
 @media screen and (max-width: 768px) {
     body {
         background-position: top;
@@ -242,6 +310,7 @@ address a:hover {
         font-size: 55px;
         text-align: center;
         margin-top: 10px;
+        margin-left: 0;
     }
 
     header h4 {
@@ -263,9 +332,6 @@ address a:hover {
         font-size: 25px;
     }
 
-    .container {
-
-    }
     .content-block {
         margin: 35px;
         flex-direction: column;
@@ -284,6 +350,7 @@ address a:hover {
         align-content: flex-start;
         margin-bottom: 10px;
     }
+
     .flex-row {
         flex-direction: column;
         justify-content: center;
@@ -295,6 +362,8 @@ address a:hover {
         width: 90%;
         margin: 5px 10px;
         text-align: center;
+        justify-content: center;
+        align-self: center;
     }
 
     .flex-row img {
@@ -307,6 +376,7 @@ address a:hover {
     .card-box {
         flex-direction: column;
         align-items: center;
+        margin: 0;
     }
 
     .top-card {
@@ -322,6 +392,15 @@ address a:hover {
         width: 100%;
     }
 
+    .card-subtitle {
+        width: 40%;
+    }
+
+    .card-subtitle p {
+        text-align: left;
+        margin: 2px 0;
+    }
+
     address {
         flex-direction: column;
         align-items: center;
@@ -330,4 +409,5 @@ address a:hover {
     address a {
         font-size: 25px;
     }
+    /* END PHONE/SMALL TABLET MEDIA QUERY STYLES*/
 }
