@@ -148,7 +148,7 @@ header nav ul li a:hover {
     min-height: 240px;
     border: solid 8px var(--accent);
     margin-bottom: 20px;
-    background-image: url(./images/portfolio-top.png);
+    background-image: url(./images/BucketTraveler.png);
     background-size: cover;
     background-position: top;
     background-blend-mode: hard-light;
@@ -217,7 +217,7 @@ header nav ul li a:hover {
 }
 
 .page3 {
-    background-image: url(./images/sporting.jpeg);
+    background-image: url(./images/quiz1.png);
 }
 
 .page4 {
