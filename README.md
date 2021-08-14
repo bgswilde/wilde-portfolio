@@ -20,7 +20,7 @@ See screenshots for desktop and mobile page layouts:
 The Content Management page links I included are pages I actively manage and create content for. I am not responsible for the original design of the CCC website, which was designed by Evans Design Co. However, I am responsible for the layout on several of the indpages, including elements of the homepage and creation of the page content. 
 
 ## LICENSE
-MIT License
+![GitHub](https://img.shields.io/github/license/bgswilde/READme-maker?style=flat-square) MIT License
 
 Copyright (c) 2021 Brian Wilde
 
